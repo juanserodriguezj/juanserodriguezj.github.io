@@ -1,3 +1,11 @@
+/*
+gris oscuro = #1d252c
+gris claro = #626262
+background gris = #1b2127
+celeste = #026fff
+*/
+
+
 body {
     font-family: 'Source Sans Pro', sans-serif;
 }
@@ -16,13 +24,33 @@ h1{
     font-size: 40px;            /* tamaño de fuente */
     line-height: 1.5;           /* alto de linea */
     letter-spacing: -.2px;      /* espaciado entre las letras */
+    color: white;
+}
 
+h1 strong{
+    color: #026fff;
+}
 
+.header{
+    background-color: #1b2127;
+    color: white;
+}
+
+.header a{
+    color: white;
+    text-decoration: none;
 }
 
 .hero{
     height: 300px;
+    background-image: url('https://images.unsplash.com/photo-1454165205744-3b78555e5572?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80');
+    background-color: #1b2127;
+    background-size: 500px 300px;
+    background-repeat: no-repeat;
+    background-position-x: right;
 }
+
+
 
 .project-details {
     width: 500px;
@@ -30,3 +58,4 @@ h1{
 .project-imageContainer{
     width: 500px;
 }
+
