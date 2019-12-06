@@ -10,7 +10,8 @@ celeste = #026fff
     color: white;
     display: flex;
     justify-content: space-between;
-    height: 90px;
+    height: 70px;
+    align-items: center;
 }
 
 ol,
@@ -70,6 +71,7 @@ h1{
     line-height: 1.5;           /* alto de linea */
     letter-spacing: -.2px;      /* espaciado entre las letras */
     color: white;             /* color de las letras */
+    margin: 0px;
 
 }
 
@@ -86,6 +88,8 @@ h1 strong{
     background-size: 500px 300px;
     background-repeat: no-repeat;
     background-position-x: right;
+    display: flex;
+    align-items: center;
 }
 
 .portfolio{
@@ -110,3 +114,14 @@ h1 strong{
     width: 500px;
 }
 
+.footer{
+    color: white;
+    background-color: #1d252c;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer img{
+    vertical-align: middle;
+}
