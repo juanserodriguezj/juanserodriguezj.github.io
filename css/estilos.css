@@ -5,6 +5,50 @@ background gris = #1b2127
 celeste = #026fff
 */
 
+.header{
+    background-color: #1b2127;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 90px;
+}
+
+ol,
+ul {
+    margin: 0px;
+    padding: opx;
+    list-style: none;
+}
+
+figure{
+    margin: 0px;
+}
+
+.header a{
+    color: white;
+    text-decoration: none;
+}
+
+.menu {
+    height: inherit;
+}
+
+.header ol {
+    display: flex;
+    height: inherit;
+}
+
+.header ol li{
+    height: inherit;
+}
+
+.header a{
+    display: flex;
+    align-items: center;
+    height: inherit;
+    padding: 0px 10px;
+    
+}
 
 body {
     font-family: 'Source Sans Pro', sans-serif;
@@ -33,15 +77,7 @@ h1 strong{
     color: #026fff;
 }
 
-.header{
-    background-color: #1b2127;
-    color: white;
-}
 
-.header a{
-    color: white;
-    text-decoration: none;
-}
 
 .hero{
     height: 300px;
