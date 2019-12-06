@@ -24,7 +24,8 @@ h1{
     font-size: 40px;            /* tamaño de fuente */
     line-height: 1.5;           /* alto de linea */
     letter-spacing: -.2px;      /* espaciado entre las letras */
-    color: white;
+    color: white;             /* color de las letras */
+
 }
 
 h1 strong{
@@ -53,6 +54,7 @@ h1 strong{
 .project {
     border: 1px solid grey;
     border-radius: 10px;
+    margin-bottom: 15px;
 }
 
 .project-details {
