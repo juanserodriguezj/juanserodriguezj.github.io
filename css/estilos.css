@@ -93,14 +93,17 @@ h2{
 
 .hero{
     height: 300px;
-    background-image: url('https://images.unsplash.com/photo-1454165205744-3b78555e5572?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80');
+    
     background-color: #1b2127;
-    background-size: 500px 300px;
-    background-repeat: no-repeat;
-    background-position-x: right;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
+
+.hero-image{
+    object-fit: cover;
+}
+
 
 .portfolio{
     background: #fafafa;
@@ -161,7 +164,7 @@ h2{
 
 .event-list{
     display: flex;
-
+    flex-wrap: wrap;
 }
 
 .event {
@@ -263,4 +266,16 @@ background-position-x: 5px;
 
 .form-email h3 {
     font-family: 'Source Sans Pro', sans-serif;
+}
+
+.container{
+    /* border: 1px solid red; */
+    width: 1000px;
+    margin: 0 auto;
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    height: inherit;
+    flex-wrap: inherit;
+
 }
