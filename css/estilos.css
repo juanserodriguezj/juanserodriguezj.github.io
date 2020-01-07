@@ -279,3 +279,22 @@ background-position-x: 5px;
     flex-wrap: inherit;
 
 }
+
+/* Si empiezas con Desktop Firt te recominedo empezar con
+el media querie mas grande */
+
+@media screen and (max-width: 1024px) {
+
+}
+
+@media screen and (max-width: 768px) {
+    
+}
+
+@media screen and (max-width: 480px) {
+    
+}
+
+@media screen and (max-width: 320px) {
+    
+}
