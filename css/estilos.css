@@ -12,6 +12,7 @@ celeste = #026fff
     justify-content: space-between;
     height: 70px;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 ol,
@@ -98,6 +99,7 @@ h2{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .hero-image{
@@ -120,6 +122,7 @@ h2{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .project-couerse,
@@ -156,6 +159,7 @@ h2{
     align-items: center;
     justify-content: space-between;
     padding: 20px;
+    flex-wrap: wrap;
 }
 
 .footer img{
@@ -210,6 +214,7 @@ h2{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
 
 }
 .social{
@@ -270,7 +275,7 @@ background-position-x: 5px;
 
 .container{
     /* border: 1px solid red; */
-    width: 1000px;
+    max-width: 1000px;
     margin: 0 auto;
     display: inherit;
     justify-content: inherit;
