@@ -99,7 +99,7 @@ h2{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
 }
 
 .hero-image{
@@ -298,9 +298,35 @@ el media querie mas grande */
     .container{
         padding: 1em;
     }
+
+    .hero{
+        position: relative;
+        height: auto;
+        overflow: hidden;
+        padding: 2em;
+    }
+
+    .hero-image{
+        position: absolute;
+        z-index: 1;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        width: 100%;
+        padding-top: 5px;
+    }
+
+    h1 {
+        font-size: 2em;
+        z-index: 2;
+    }
+
 }
 
 @media screen and (max-width: 767px) {
+
+    
     .header{
         display: block;
         height: auto;
@@ -376,30 +402,38 @@ el media querie mas grande */
     .event-detail{
         margin: 2em  .5em  .5em;
         padding: 1em;
-    }
+}
 
-    .contact {
-        height: auto;
-        padding: 1em 0;
-        text-align: center;
-        display: block;
-    }
+.contact {
+    height: auto;
+    padding: 1em 0;
+    text-align: center;
+    display: block;
+}
 
-    .form-email button {
-        margin: 1em auto;
-    }
+.form-email button {
+    margin: 1em auto;
+}
 
-    .form-email h3{
-        margin-top: 0;
-    }
+.form-email h3{
+    margin-top: 0;
+}
 
-    .footer{
-        display: block;
-        text-align: center;
-        border: 1px solid transparent;
-    }
+.footer{
+    display: block;
+    text-align: center;
+    border: 1px solid transparent;
+    padding: 5px;
+}
 }
 
 @media screen and (max-width: 320px) {
+    h1 {
+        font-size: 1.2em;
+    }
+
+    .hero{
+        padding: 2em 1em;
+    }
     
 }
