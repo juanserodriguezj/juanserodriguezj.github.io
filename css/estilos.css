@@ -5,6 +5,49 @@ background gris = #1b2127
 celeste = #026fff
 */
 
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?3heqz6');
+    src:  url('../fonts/icomoon.eot?3heqz6#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?3heqz6') format('truetype'),
+      url('../fonts/icomoon.woff?3heqz6') format('woff'),
+      url('../fonts/icomoon.svg?3heqz6#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  
+  [class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-menu:before {
+    content: "\e9bd";
+  }
+  .icon-instagram:before {
+    content: "\ea92";
+  }
+  .icon-twitter:before {
+    content: "\ea96";
+  }
+  .icon-github:before {
+    content: "\eab0";
+  }
+  .icon-linkedin:before {
+    content: "\eaca";
+  }
+
 .header{
     background-color: #1b2127;
     color: white;
@@ -226,30 +269,23 @@ h2{
     
 }
 
-.social-link{
-    display: inline-block;
+
+/* .social-links{
+    display: inline-flex;
+    font-size: 40px;
     width: 50px;
     height: 50px;
-    
-    margin: 0 10px;
     background-size: 50px 50px;
-}
+    margin: 0 10px;
+    text-decoration: none;
+    color: #fff;
+    border: 3px solid #fff;
+    border-radius: 100%;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+} */
 
-.social-link.twitter {
-background-image: url('../images/twitter.svg');
-}
-.social-link.facebook {
-background-image: url('../images/facebook.svg');
-
-}
-.social-link.github {
-background-image: url('../images/github.svg');
-
-}
-.social-link.linkedin {
-background-image: url('../images/instagram.svg');
-
-}
 
 .form-email input{
 border-color: gray;
