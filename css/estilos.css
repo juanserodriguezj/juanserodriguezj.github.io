@@ -386,6 +386,9 @@ el media querie mas grande */
     }
     .header a{
         justify-content: center;
+        height: 40px;
+        font-size: 2em;
+        margin-bottom: .5em;
     }
     .header .logo{
         text-align: center;
@@ -437,7 +440,25 @@ el media querie mas grande */
         width: 100%;
     }
     
+    .menu{
+        position: fixed;
+        background:rgba(0, 0, 0, .8);
+        z-index: 3;
+        top: 0;
+        left: -100vw;
+        width: 100vw;
+        bottom: 0;
+        display: flex;
+        align-items: center; 
+        justify-content: center;
+        transition: .3s;
+    }
+
+    .menu.its-active{
+        left: 0;
+    }
 }
+
 
 
 
