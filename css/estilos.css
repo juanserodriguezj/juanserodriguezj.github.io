@@ -361,7 +361,7 @@ el media querie mas grande */
     line-height: 40px;
     text-align: center;
     position: fixed;
-    z-index: 3;
+    z-index: 4;
     left: 5px;
     top: 5px;
     color: white;
@@ -454,7 +454,7 @@ el media querie mas grande */
         transition: .3s;
     }
 
-    .menu.its-active{
+    .menu.is-active{
         left: 0;
     }
 }
