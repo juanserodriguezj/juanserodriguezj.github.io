@@ -174,8 +174,8 @@
 
             ipad.addListener(validation)
 
-            function validation(event) {
-                if (event.matches){
+            function validation(ipad) {
+                if (ipad.matches){
                     burgerButton.addEventListener('click', hideShow);
                 }else{
                     burgerButton.removeEventListener('click', hideShow);
